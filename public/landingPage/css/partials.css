@@ -1,0 +1,65 @@
+.custom-card {
+    border:3px solid ;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fafaf8; /* Warna latar belakang card */
+    border-radius: 10px; /* Border radius */
+    margin: 20px 0; /* Margin untuk memberikan jarak antar card */
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.custom-card-header {
+    /* background: linear-gradient(135deg, #007bff, #0056b3); */
+    background: linear-gradient(135deg,#ffc800, #f6d365); /* Gradasi warna kuning */
+    padding: 20px;
+    border-radius: 10px 10px 0 0; /* Border radius untuk bagian atas card */
+    border-bottom: none;
+}
+
+.custom-card-title {
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.custom-card-body {
+    padding: 20px;
+}
+
+.custom-card-text {
+    font-size: 18px;
+    color: #555;
+}
+
+#facilitiesCarousel .carousel-item img {
+    max-height: 600px; /* Sesuaikan tinggi maksimal gambar */
+    border-radius: 30px;
+    object-fit: cover; /* Menjaga proporsi gambar */
+}
+
+section.about-section {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/img/depan.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    filter: opacity(5px);
+    
+    }
+
+#mapid { height: 400px; }
+
+/* Media Query for responsive design */
+@media (max-width: 767.98px) {
+    .custom-card {
+        margin-bottom: 20px;
+    }
+}
+
